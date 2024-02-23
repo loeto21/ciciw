@@ -8,16 +8,19 @@ before_script:
   - RAILS_ENV=test bundle exec rake db:setup
 specs:
   script: SIMPLECOV=true RAILS_ENV=test bundle exec rake spec
+  parallel: 10
   tags:
     - ruby
     - mysql
 rubocop:
   script: bundle exec rubocop
+  parallel: 10
   tags:
     - ruby
     - mysql
 brakeman:
   script: bundle exec brakeman
+  parallel: 10
   tags:
     - ruby
     - mysql
